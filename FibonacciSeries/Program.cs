@@ -6,8 +6,7 @@ namespace BasicCoreProgram
     {
         static void Main(string[] args)
         {
-            ReverseNumber prime = new ReverseNumber();
-             prime.Reverse(1234);
+            CouponNumber.GenerateCoupan(10);
         }
     }
 }
